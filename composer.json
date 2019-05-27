@@ -1,13 +1,13 @@
 {
-    "name": "mikehaertl/php-pdftk",
-    "description": "A PDF conversion and form utility based on pdftk.",
-    "keywords": ["pdf", "pdftk"],
+    "name": "sdevore/php-pdfjam",
+    "description": "A PDF pdfjam.",
+    "keywords": ["pdf", "pdfjam"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Haertl",
-            "email": "haertl.mike@gmail.com"
+            "name": "Samuel DeVore",
+            "email": "sdevore@sdevore.com"
         }
     ],
     "require": {
@@ -17,10 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mikehaertl\\pdftk\\": "src/"
+            "sdevore\\pdfjam\\": "src/"
         }
-    },
-    "suggest": {
-        "mikehaertl/pdftk2-precise-amd64": "pdftk 2 binary for Ubuntu 12.04 LTS (amd64)"
     }
 }
